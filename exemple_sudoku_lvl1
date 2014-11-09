@@ -1,0 +1,32 @@
+4 4 4 (4 symboles, 4 lignes, 4 colonnes -> dans le desordre)
+g sudoku (Type du sudoku, mais on s'en fiche un peu)
+
+| | |4| |  C'est un sudoku 4x4
+|1| | | |
+| | | |3|
+| |1| | |
+
+Cela correspond aux valeurs connues
+s 1 (1,2)
+s 1 (2,4)
+s 4 (3,1)
+s 3 (4,3)
+
+Cela correspond aux colonnes
+u (1,1) (1,2) (1,3) (1,4)
+u (2,1) (2,2) (2,3) (2,4)
+u (3,1) (3,2) (3,3) (3,4)
+u (4,1) (4,2) (4,3) (4,4)
+
+Cela correspond aux lignes
+u (1,1) (2,1) (3,1) (4,1)
+u (1,2) (2,2) (3,2) (4,2)
+u (1,3) (2,3) (3,3) (4,3)
+u (1,4) (2,4) (3,4) (4,4)
+
+Cela correspond aux bloc de 4 cases
+u (1,1) (1,2) (2,1) (2,2)
+u (3,1) (3,2) (4,1) (4,2)
+u (1,3) (1,4) (2,3) (2,4)
+u (3,3) (3,4) (4,3) (4,4)
+

@@ -1,0 +1,4 @@
+To use it, enter the following command:
+./create_glucose.sh
+make sudoku
+sudoku <sudoku file> <sudoku file> ...
